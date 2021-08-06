@@ -22,7 +22,10 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
 TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/vayu_defconfig
+TARGET_KERNEL_CONFIG := vayu_user_defconfig
+TARGET_KERNEL_CLANG_VERSION := r377782d
+KERNEL_LD := LD=ld.lld
+TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_TOOLS_SUPPORT_RELR=n CONFIG_RELR=n
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vayu/BoardConfigVendor.mk
