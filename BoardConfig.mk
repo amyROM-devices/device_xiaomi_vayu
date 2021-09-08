@@ -18,14 +18,17 @@ TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
-TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_vayu
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
 
 # Kernel
 TARGET_KERNEL_CONFIG := vayu_user_defconfig
 TARGET_KERNEL_CLANG_VERSION := r377782d
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_TOOLS_SUPPORT_RELR=n CONFIG_RELR=n
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vayu/BoardConfigVendor.mk
