@@ -5,7 +5,7 @@
     <string name="amyrom_maintainer">Lambada10 x Wind/owZ</string>
     
     <!-- amyROM Device Info -->
-    <string name="amy_device_name_summary">Poco X3 Pro</string>
+    <string name="amy_device_platform_summary">sm8150</string>
     <string name="amy_chipset_type_summary">Qualcomm Snapdragon 860</string>
     <string name="amy_gpu_summary">Aderno 640</string>
     <string name="amy_camera_mp_summary">48MP+8MP+2MP+2MP Quad Camera</string>
