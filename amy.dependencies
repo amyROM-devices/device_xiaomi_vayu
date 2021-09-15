@@ -12,5 +12,11 @@
   {
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "the-muppets/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "remote": "gitlab",
+    "branch": "lineage-18.1"
   }
 ]
