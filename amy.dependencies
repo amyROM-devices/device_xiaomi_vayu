@@ -7,7 +7,7 @@
     "repository": "Jebaitedneko/android_kernel_xiaomi_vayu",
     "target_path": "kernel/xiaomi/sm8150",
     "remote": "github",
-    "branch": "base-stg"
+    "branch": "base"
   },
   {
     "repository": "hardware_xiaomi",
