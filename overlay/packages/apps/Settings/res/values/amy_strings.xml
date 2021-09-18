@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <!-- amyROM Device Maintainer -->
-    <string name="amyrom_maintainer">Lambada10 x Wind/owZ</string>
+    <string name="amyrom_maintainer">Lambada10</string>
     
     <!-- amyROM Device Info -->
     <string name="amy_device_platform_summary">sm8150</string>
